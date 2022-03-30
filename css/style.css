@@ -1,0 +1,30 @@
+.page {
+  background-color: #ffffff;
+  color: #757575;
+}
+/* цвет основного текста #212121 */
+/* вторичный цвет текста #757575 */
+/* цвет для h1 #FFFFFF */
+/* hover #2196F3 */
+/* адресс футера rgba(255, 255, 255, 0.6); */
+
+.logo:hover {
+  color: #2196f3;
+}
+.logo-second {
+  color: #212121;
+}
+.link {
+  color: #212121;
+}
+.link:hover,
+:focus {
+  color: #2196f3;
+}
+.mail-tel {
+  color: #757575;
+}
+.mail-tel:focus,
+:hover {
+  color: #2196f3;
+}
