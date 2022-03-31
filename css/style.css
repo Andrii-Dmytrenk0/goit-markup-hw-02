@@ -5,6 +5,7 @@
   --h1-text-color: #ffffff;
   --acent-color: #2196f3;
   --background-hero: #2f303a;
+  --background-porfolio-botton: #f5f4fa;
 }
 body {
   background-color: var(--h1-text-color);
@@ -104,4 +105,24 @@ h1 {
 .address-item:hover,
 .address-item:focus {
   color: var(--acent-color);
+}
+
+/* portfolio */
+/* button */
+.button-filter {
+  color: var(--primiry-text-color);
+  background-color: var(--background-porfolio-botton);
+  cursor: pointer;
+}
+.button-filter:hover,
+.button-filter:focus {
+  background-color: var(--acent-color);
+  color: var(--h1-text-color);
+}
+/* services */
+.services-title {
+  color: var(--primiry-text-color);
+}
+.services-text {
+  color: var(--title-text-color);
 }
