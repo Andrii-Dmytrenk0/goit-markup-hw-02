@@ -1,30 +1,41 @@
+:root {
+  --primiry-text-color: #212121;
+  --title-text-color: #757575;
+  --adress-footer-text: rgba(255, 255, 255, 0.6);
+  --h1-text-color: #ffffff;
+  --acent-color: #2196f3;
+}
 .page {
   background-color: #ffffff;
   color: #757575;
 }
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
 /* цвет основного текста #212121 */
 /* вторичный цвет текста #757575 */
 /* цвет для h1 #FFFFFF */
-/* hover #2196F3 */
+/* acent #2196F3 */
 /* адресс футера rgba(255, 255, 255, 0.6); */
 
-.logo:hover {
-  color: #2196f3;
+/* Header */
+/* logo */
+.logo {
+  color: var(--acent-color);
+  text-decoration: none;
 }
 .logo-second {
-  color: #212121;
+  color: var(--primiry-text-color);
+  text-decoration: none;
 }
-.link {
-  color: #212121;
+/* site-nav */
+.site-nav .link {
+  color: var(--primiry-text-color);
 }
-.link:hover,
-:focus {
-  color: #2196f3;
-}
-.mail-tel {
-  color: #757575;
-}
-.mail-tel:focus,
-:hover {
-  color: #2196f3;
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--acent-color);
 }
