@@ -4,15 +4,16 @@
   --adress-footer-text: rgba(255, 255, 255, 0.6);
   --h1-text-color: #ffffff;
   --acent-color: #2196f3;
+  --background-hero: #2f303a;
 }
-.page {
-  background-color: #ffffff;
-  color: #757575;
+body {
+  background-color: var(--h1-text-color);
+  color: var(--title-text-color);
 }
-.list {
+ul {
   list-style: none;
 }
-.link {
+a {
   text-decoration: none;
 }
 /* цвет основного текста #212121 */
@@ -32,10 +33,75 @@
   text-decoration: none;
 }
 /* site-nav */
-.site-nav .link {
+.nav-link {
   color: var(--primiry-text-color);
 }
-.site-nav .link:hover,
-.site-nav .link:focus {
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--acent-color);
+}
+/* contact-nav */
+.contact-link {
+  color: var(--title-text-color);
+}
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--acent-color);
+}
+/* Hero */
+.hero {
+  background-color: var(--background-hero);
+}
+h1 {
+  color: var(--h1-text-color);
+}
+.button {
+  cursor: pointer;
+  background-color: var(--acent-color);
+  color: var(--h1-text-color);
+}
+/* hang-section */
+.list-items {
+  color: var(--primiry-text-color);
+}
+.items-text {
+  color: var(--title-text-color);
+}
+/* examples-section */
+.examples-title {
+  color: var(--primiry-text-color);
+}
+/* my-team section */
+.team-title {
+  color: var(--primiry-text-color);
+}
+.team-worker {
+  color: var(--primiry-text-color);
+}
+.worker-position {
+  color: var(--title-text-color);
+}
+/* footer */
+.footer {
+  background-color: var(--background-hero);
+}
+.icon {
+  color: var(--acent-color);
+}
+.icon-second {
+  color: var(--h1-text-color);
+}
+.address-map {
+  color: var(--h1-text-color);
+}
+.address-map:hover,
+.address-map:focus {
+  color: var(--acent-color);
+}
+.address-item {
+  color: var(--adress-footer-text);
+}
+.address-item:hover,
+.address-item:focus {
   color: var(--acent-color);
 }
