@@ -10,12 +10,19 @@
 body {
   background-color: var(--h1-text-color);
   color: var(--title-text-color);
+  font-family: Roboto, sans-serif;
 }
 ul {
   list-style: none;
 }
 a {
   text-decoration: none;
+}
+button {
+  font-family: inherit;
+}
+h3 {
+  color: var(--primiry-text-color);
 }
 /* цвет основного текста #212121 */
 /* вторичный цвет текста #757575 */
@@ -28,12 +35,30 @@ a {
 .logo {
   color: var(--acent-color);
   text-decoration: none;
+  font-family: "Raleway", sans-serif;
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 .logo-second {
   color: var(--primiry-text-color);
   text-decoration: none;
+  font-family: "Raleway", sans-serif;
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 /* site-nav */
+.nav-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
 .nav-link {
   color: var(--primiry-text-color);
 }
@@ -42,6 +67,12 @@ a {
   color: var(--acent-color);
 }
 /* contact-nav */
+.nav-contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
 .contact-link {
   color: var(--title-text-color);
 }
@@ -55,32 +86,85 @@ a {
 }
 h1 {
   color: var(--h1-text-color);
+
+  font-style: 400;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
+
 .button {
   cursor: pointer;
   background-color: var(--acent-color);
   color: var(--h1-text-color);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 /* hang-section */
 .list-items {
   color: var(--primiry-text-color);
+
+  font-style: 400;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .items-text {
   color: var(--title-text-color);
+
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 /* examples-section */
 .examples-title {
   color: var(--primiry-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 /* my-team section */
 .team-title {
   color: var(--primiry-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
+
 .team-worker {
-  color: var(--primiry-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .worker-position {
   color: var(--title-text-color);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 /* footer */
 .footer {
@@ -88,12 +172,29 @@ h1 {
 }
 .icon {
   color: var(--acent-color);
+  font-family: "Raleway", sans-serif;
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 .icon-second {
   color: var(--h1-text-color);
+  font-family: "Raleway", sans-serif;
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 .address-map {
   color: var(--h1-text-color);
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 .address-map:hover,
 .address-map:focus {
@@ -101,6 +202,11 @@ h1 {
 }
 .address-item {
   color: var(--adress-footer-text);
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 .address-item:hover,
 .address-item:focus {
@@ -113,6 +219,12 @@ h1 {
   color: var(--primiry-text-color);
   background-color: var(--background-porfolio-botton);
   cursor: pointer;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .button-filter:hover,
 .button-filter:focus {
@@ -122,7 +234,17 @@ h1 {
 /* services */
 .services-title {
   color: var(--primiry-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 .services-text {
   color: var(--title-text-color);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
 }
