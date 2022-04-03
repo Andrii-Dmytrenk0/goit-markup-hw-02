@@ -12,16 +12,13 @@ body {
   color: var(--title-text-color);
   font-family: Roboto, sans-serif;
 }
-ul {
+.list {
   list-style: none;
 }
-a {
+.link {
   text-decoration: none;
 }
-button {
-  font-family: inherit;
-}
-h3 {
+.title-h3 {
   color: var(--primiry-text-color);
 }
 /* цвет основного текста #212121 */
@@ -56,7 +53,7 @@ h3 {
 .nav-list {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.1;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .nav-link {
@@ -70,7 +67,7 @@ h3 {
 .nav-contact {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.1;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .contact-link {
@@ -84,10 +81,9 @@ h3 {
 .hero {
   background-color: var(--background-hero);
 }
-h1 {
+.hero-captoin {
   color: var(--h1-text-color);
 
-  font-style: 400;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
@@ -98,6 +94,7 @@ h1 {
 }
 
 .button {
+  font-family: inherit;
   cursor: pointer;
   background-color: var(--acent-color);
   color: var(--h1-text-color);
@@ -115,10 +112,9 @@ h1 {
 .list-items {
   color: var(--primiry-text-color);
 
-  font-style: 400;
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.1;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -135,7 +131,7 @@ h1 {
 
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.14;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -145,7 +141,7 @@ h1 {
 
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.14;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -153,7 +149,7 @@ h1 {
 .team-worker {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.1;
+  line-height: 1.14;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -162,7 +158,7 @@ h1 {
 
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.1;
+  line-height: 1.14;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -187,6 +183,9 @@ h1 {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+}
+.address-block{
+font-style: normal;
 }
 .address-map {
   color: var(--h1-text-color);
@@ -216,6 +215,7 @@ h1 {
 /* portfolio */
 /* button */
 .button-filter {
+  font-family: inherit;
   color: var(--primiry-text-color);
   background-color: var(--background-porfolio-botton);
   cursor: pointer;
