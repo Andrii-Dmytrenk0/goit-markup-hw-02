@@ -59,6 +59,9 @@ body {
 .nav-link {
   color: var(--primiry-text-color);
 }
+.current {
+  color: var(--acent-color);
+}
 .nav-link:hover,
 .nav-link:focus {
   color: var(--acent-color);
